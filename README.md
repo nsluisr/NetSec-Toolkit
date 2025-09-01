@@ -28,13 +28,7 @@ A suite of command-line tools written in Python for performing network security 
 | `deep_scanner.py`     | A network scanner to discover hosts and profile a target with Nmap.                |
 | `enhanced_monitor.py` | Performs ARP spoofing to capture, analyze, and log network traffic.                |
 
----
 
-## 🎥 Demo
-
-> A brief demo of the tools in action. (You can record a GIF or short video and place it here).
-
-![Demo GIF](https://place-holder.com/gif-demo.gif)
 
 ---
 
