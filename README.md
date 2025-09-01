@@ -1,7 +1,8 @@
 # Python WiFi Audit Toolkit
 
-[![status](https://img.shields.io/badge/status-active-brightgreen)](#)
-[![license](https://img.shields.io/badge/license-MIT-blue)](/LICENSE)
+
+
+[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)](#) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](#)
 
 A suite of command-line tools written in Python for performing network security audits. It includes a deep network scanner and a traffic monitor with Man-in-the-Middle (ARP Spoofing) capabilities.
 
@@ -23,9 +24,17 @@ A suite of command-line tools written in Python for performing network security 
 ## 🛠️ Tools Included
 
 | Script                | Description                                                                        |
-|-----------------------|------------------------------------------------------------------------------------|
+| --------------------- | ---------------------------------------------------------------------------------- |
 | `deep_scanner.py`     | A network scanner to discover hosts and profile a target with Nmap.                |
 | `enhanced_monitor.py` | Performs ARP spoofing to capture, analyze, and log network traffic.                |
+
+---
+
+## 🎥 Demo
+
+> A brief demo of the tools in action. (You can record a GIF or short video and place it here).
+
+![Demo GIF](https://place-holder.com/gif-demo.gif)
 
 ---
 
@@ -33,13 +42,13 @@ A suite of command-line tools written in Python for performing network security 
 
 Before you begin, ensure you have the following installed:
 
-1.  **Python 3.9+**
-2.  **Python Dependencies:** Listed in `requirements.txt`.
-3.  **System Tools:**
-    - `nmap`
-    - `tshark`
-    - `arpspoof` (from the `dsniff` package)
-    - `dot` (from the `graphviz` package)
+- **Python 3.9+**
+- **Python Dependencies:** Listed in `requirements.txt`.
+- **System Tools:**
+  - `nmap`
+  - `tshark`
+  - `arpspoof` (from the `dsniff` package)
+  - `dot` (from the `graphviz` package)
 
 ---
 
@@ -83,24 +92,24 @@ Both scripts should be run from the project's root directory.
 
 This script can be run with normal user privileges for basic scanning, but requires `sudo` for Nmap scans.
 
-```bash
-# Activate your virtual environment if you haven't already
-_source venv/bin/activate_
-
-# Run the script
-sudo python3 deep_scanner.py
-```
+> ```bash
+> # Activate your virtual environment if you haven't already
+> source venv/bin/activate
+> 
+> # Run the script
+> sudo python3 deep_scanner.py
+> ```
 
 ### Enhanced Monitor
 
 This script **requires superuser privileges** to perform ARP spoofing and to put the network card in promiscuous mode. **You must run it with the Python interpreter from the virtual environment**.
 
-```bash
-# Make sure your virtual environment is activated
-
-# Run the script with sudo and the venv's python
-sudo venv/bin/python3 enhanced_monitor.py
-```
+> ```bash
+> # Make sure your virtual environment is activated
+> 
+> # Run the script with sudo and the venv's python
+> sudo venv/bin/python3 enhanced_monitor.py
+> ```
 
 ---
 
@@ -114,6 +123,5 @@ These tools are intended for educational purposes and for use in authorized secu
 
 If you find this project useful, you can show your support in the following ways:
 
-⭐ **Star the repository on GitHub.**
-
-🐛 **Report any issues or suggest improvements** by opening an issue.
+- ⭐ **Star the repository on GitHub.**
+- 🐛 **Report any issues or suggest improvements** by opening an issue.
