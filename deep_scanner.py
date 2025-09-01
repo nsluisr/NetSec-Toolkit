@@ -2,7 +2,7 @@
 #                  WiFi Deep Scanner Tool
 # #################################################################
 #
-# Created by: sluisr
+# Created by: nsluisr
 #
 # Disclaimer: This script is intended for educational purposes
 # and for use in authorized environments only. The author is not
